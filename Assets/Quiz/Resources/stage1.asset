@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: stage1
+  m_EditorClassIdentifier: 
+  categoryName: STAGE 1
+  questions:
+  - questionInfo: This(male)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0647\u064E\u0630\u064E\u0627"
+    - "\u062A\u0650\u0644\u0652\u0643\u064E"
+    - "\u0647\u064E\u0630\u064E\u0627"
+    - "\u0647\u064E\u0630\u064E\u0627"
+    correctAns: "\u0647\u064E\u0630\u064E\u0627"
+  - questionInfo: That(male)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - air
+    - "\u0630\u064E\u0644\u0650\u0643\u064E"
+    - road
+    - false
+    correctAns: "\u0630\u064E\u0644\u0650\u0643\u064E"
+  - questionInfo: This(female)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - roaming
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - simple
+    - infinity
+    correctAns: "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+  - questionInfo: That(female)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - your
+    - whole
+    - "\u062A\u0650\u0644\u0652\u0643\u064E"
+    - gold
+    correctAns: "\u062A\u0650\u0644\u0652\u0643\u064E"
+  - questionInfo: These
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - glide
+    - gym
+    - tiles
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+  - questionInfo: Those
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - glide
+    - gym
+    - "\u0623\u064F\u0648\u0644\u064E\u0626\u0650\u0643\u064E"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0623\u064F\u0648\u0644\u064E\u0626\u0650\u0643\u064E"
+  - questionInfo: who(male)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - glide
+    - gym
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u0649\u0652"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u0649\u0652"
+  - questionInfo: who(female)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - glide
+    - "\u0627\u064E\u0644\u0651\u064E\u062A\u0650\u0649\u0652"
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u0649\u0652"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0627\u064E\u0644\u0651\u064E\u062A\u0650\u0649\u0652"
+  - questionInfo: Those who(male)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0627\u064E\u0644\u0651\u064E\u062A\u0650\u0649\u0652"
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u0649\u0652"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+  - questionInfo: These(broken plural)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u0649\u0652"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+  - questionInfo: Those who(broken plural)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u062A\u0650\u0644\u0652\u0643\u064E"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u062A\u0650\u0644\u0652\u0643\u064E"
+  - questionInfo: No
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0644\u064E\u0627"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0644\u064E\u0627"
+  - questionInfo: god
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0625\u0650\u0644\u064E\u0670\u0647"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0625\u0650\u0644\u064E\u0670\u0647"
+  - questionInfo: except
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0625\u0650\u0644\u064E\u0651\u0627"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0625\u0650\u0644\u064E\u0651\u0627"
+  - questionInfo: unless
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0625\u0650\u0644\u064E\u0651\u0627"
+    correctAns: "\u0625\u0650\u0644\u064E\u0651\u0627"
+  - questionInfo: if not
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0625\u0650\u0644\u064E\u0651\u0627"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0625\u0650\u0644\u064E\u0651\u0627"
+  - questionInfo: allah
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0671\u0644\u0644\u064E\u0651\u0647"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0671\u0644\u0644\u064E\u0651\u0647"
+  - questionInfo: never
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0643\u064E\u0644\u0651\u064E\u0627"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0643\u064E\u0644\u0651\u064E\u0627"
+  - questionInfo: certainly not
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0643\u064E\u0644\u0651\u064E\u0627"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0643\u064E\u0644\u0651\u064E\u0627"
+  - questionInfo: not (future)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0644\u064E\u0646\u0652"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0644\u064E\u0646\u0652"
+  - questionInfo: not(past)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0644\u064E\u0645\u0652"
+  - questionInfo: not
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0645\u064E\u0627"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0645\u064E\u0627"
+  - questionInfo: not(male)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0644\u064E\u064A\u0652\u0633\u064E"
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0644\u064E\u064A\u0652\u0633\u064E"
+  - questionInfo: not(female)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0644\u064E\u064A\u0652\u0633\u064E\u062A"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0644\u064E\u064A\u0652\u0633\u064E\u062A"
+  - questionInfo: yes
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0628\u064E\u0644\u064E\u0649"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0628\u064E\u0644\u064E\u0649"
+  - questionInfo: indeed
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0628\u064E\u0644\u064E\u0649"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0628\u064E\u0644\u064E\u0649"
+  - questionInfo: not
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u063A\u064E\u064A\u0652\u0631"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u063A\u064E\u064A\u0652\u0631"
+  - questionInfo: other than
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u063A\u064E\u064A\u0652\u0631"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u063A\u064E\u064A\u0652\u0631"
+  - questionInfo: besides
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u062F\u064F\u0648\u0646\u064E"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u062F\u064F\u0648\u0646\u064E"
+  - questionInfo: less than
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u062F\u064F\u0648\u0646\u064E"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u062F\u064F\u0648\u0646\u064E"
+  - questionInfo: yes
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u0627\u064E\u0644\u0651\u064E\u0630\u0650\u064A\u0652\u0646\u064E"
+    - "\u0647\u064E\u0640\u0630\u0650\u0647\u0650"
+    - "\u0646\u064E\u0639\u064E\u0645\u0652"
+    - "\u0647\u064E\u0640\u0624\u064F\u0644\u0622\u0621\u0650"
+    correctAns: "\u0646\u064E\u0639\u064E\u0645\u0652"
